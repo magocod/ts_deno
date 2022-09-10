@@ -1,0 +1,26 @@
+{
+  "name": "ts_deno",
+  "version": "1.0.0",
+  "description": "deno practice",
+  "main": "index.ts",
+  "scripts": {
+    "start": "deno run --unstable --allow-env --allow-read --allow-net src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magocod/ts_deno.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magocod/ts_deno/issues"
+  },
+  "homepage": "https://github.com/magocod/ts_deno#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
