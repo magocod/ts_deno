@@ -4,8 +4,14 @@
   "description": "deno practice",
   "main": "index.ts",
   "scripts": {
-    "start": "deno run --unstable --allow-env --allow-read --allow-net src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "deno run --unstable --allow-env --allow-read --allow-net src/app.ts",
+    "lint": "deno lint",
+    "format": "deno fmt",
+    "test": "deno test",
+    "test:parallel": "deno test --parallel",
+    "test:coverage": "deno test --coverage=cov_profile",
+    "test:file": "deno test test/example.test.ts",
+    "test:doc": "deno test --doc"
   },
   "repository": {
     "type": "git",
