@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b733c276-f04e-401e-853b-f44a6ee7c826" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/types.express.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/types.express.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/types.express.d.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/codes/ts/ts_deno/test/other",
+    "last_opened_file_path": "C:/codes/ts/ts_deno",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2021.3.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
@@ -57,7 +60,7 @@
       <recent name="C:\codes\ts\ts_deno" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test:parallel">
+  <component name="RunManager" selected="npm.start">
     <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -110,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.test:parallel" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.format" />
         <item itemvalue="npm.lint" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +133,8 @@
       <workItem from="1662847005952" duration="410000" />
       <workItem from="1662847429899" duration="3870000" />
       <workItem from="1662930227639" duration="512000" />
-      <workItem from="1662936677405" duration="2753000" />
+      <workItem from="1662936677405" duration="3482000" />
+      <workItem from="1672609447006" duration="2479000" />
     </task>
     <servers />
   </component>
