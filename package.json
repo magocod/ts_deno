@@ -4,7 +4,8 @@
   "description": "deno practice",
   "main": "index.ts",
   "scripts": {
-    "start": "deno run --node-modules-dir --reload t--allow-env --allow-read --allow-net src/app.ts",
+    "start": "deno run --reload --allow-sys --allow-env --allow-read --allow-net src/app.ts",
+    "start:modules": "deno run --node-modules-dir --reload --allow-sys --allow-env --allow-read --allow-net src/app.ts",
     "lint": "deno lint",
     "format": "deno fmt",
     "test": "deno test",
@@ -22,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/magocod/ts_deno/issues"
   },
-  "homepage": "https://github.com/magocod/ts_deno#readme",
-  "devDependencies": {
-    "@types/express": "^4.17.13"
-  }
+  "homepage": "https://github.com/magocod/ts_deno#readme"
 }

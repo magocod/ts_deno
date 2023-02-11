@@ -5,7 +5,8 @@
     "strict": true
   },
   "tasks": {
-    "start": "deno run --node-modules-dir --reload t--allow-env --allow-read --allow-net src/app.ts",
+    "start": "deno run --reload --allow-sys --allow-env --allow-read --allow-net src/app.ts",
+    "start:modules": "deno run --node-modules-dir --reload --allow-sys --allow-env --allow-read --allow-net src/app.ts",
     "lint": "deno lint",
     "format": "deno fmt",
     "test": "deno test",

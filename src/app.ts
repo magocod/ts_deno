@@ -1,4 +1,4 @@
-// @deno-types="npm:@types/express@4.18.2"
+// @deno-types="npm:@types/express@4.17.17"
 import express, { Response } from 'npm:express@4.18.2';
 
 import { Schema } from "npm:mongoose@6.7";

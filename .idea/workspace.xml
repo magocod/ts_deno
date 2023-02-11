@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b733c276-f04e-401e-853b-f44a6ee7c826" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ts_deno.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deno.json" beforeDir="false" afterPath="$PROJECT_DIR$/deno.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deno.lock" beforeDir="false" afterPath="$PROJECT_DIR$/deno.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/deps.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,8 @@
       <workItem from="1676068907615" duration="33000" />
       <workItem from="1676068947788" duration="12000" />
       <workItem from="1676068961882" duration="4689000" />
-      <workItem from="1676074566431" duration="605000" />
+      <workItem from="1676074566431" duration="1047000" />
+      <workItem from="1676116950680" duration="1517000" />
     </task>
     <servers />
   </component>
