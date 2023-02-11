@@ -1,6 +1,7 @@
-import express from 'npm:express@4.18.2';
+// @deno-types="npm:@types/express@4.18.2"
+import express, { Response } from 'npm:express@4.18.2';
 
-import { Schema } from "npm:mongoose@^6.7";
+import { Schema } from "npm:mongoose@6.7";
 
 import { foo } from './utils.ts'
 
@@ -14,7 +15,7 @@ const dinosaurSchema = new Schema({
 	updatedAt: { type: Date, default: Date.now },
 });
 
-app.get('/', function (_req, res) {
+app.get('/', function (_req, res: Response) {
 	res.send('Hello World ' + foo());
 });
 

@@ -4,6 +4,16 @@
     "lib": ["deno.window"],
     "strict": true
   },
+  "tasks": {
+    "start": "deno run --node-modules-dir --reload t--allow-env --allow-read --allow-net src/app.ts",
+    "lint": "deno lint",
+    "format": "deno fmt",
+    "test": "deno test",
+    "test:parallel": "deno test --parallel",
+    "test:coverage": "deno test --coverage=cov_profile",
+    "test:file": "deno test test/example.test.ts",
+    "test:doc": "deno test --doc"
+  },
   "lint": {
     "files": {
       "include": ["src/"]
