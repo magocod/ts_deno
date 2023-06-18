@@ -1,9 +1,9 @@
 // @deno-types="npm:@types/express@4.17.17"
 import express, { Response } from 'npm:express@4.18.2';
 
-import { Schema } from "npm:mongoose@6.7";
+import { Schema } from 'npm:mongoose@6.7';
 
-import { foo } from './utils.ts'
+import { foo } from './utils.ts';
 
 const app = express();
 const port = 3000;
@@ -27,7 +27,7 @@ server.on('listening', onListening);
  * Event listener for HTTP server "listening" event.
  */
 function onListening() {
-	console.log(dinosaurSchema)
+	console.log(dinosaurSchema);
 	const addr = server.address();
 	const _bind = typeof addr === 'string'
 		? 'pipe ' + addr

@@ -13,3 +13,5 @@
 coverage
 test/coverage
 /cov_profile
+
+.idea
